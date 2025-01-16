@@ -134,3 +134,25 @@ hr{
 .resume-download-cv{
     margin-top: 30px ;
 }
+
+
+/* Media query */
+
+@media screen and (max-width: 576px) {
+    .banner, nav, .skill-container, .resume-container, {
+        flex-direction: column;
+    }
+    .banner{
+        margin: 10px;
+    }
+    .about{
+        padding: 10px 20px;
+    }
+    .skill{
+        text-align: center;
+    }
+
+    
+
+
+}
